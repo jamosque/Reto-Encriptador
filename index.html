@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador de Texto</title>
+
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+<header>
+  <h2>Encriptador de Texto</h2>
+</header>
+
+<main>
+  <div id="left">
+    <h2>Encriptador de Texto</h2>
+
+    <label for="texto">Ingresa el texto</label><br>
+    <textarea id="texto" rows="15"></textarea><br><br>
+
+    <div class="button-container">
+      <button id="cifrar">Cifrar</button>
+      <button id="descifrar">Descifrar</button>
+    </div>
+
+    <p>No se permiten mayúsculas ni caracteres especiales.</p>
+  </div>
+
+
+  <div id="right">
+    <h2>Resultado</h2>
+
+    <label for="resultado">Visualice la encriptación</label><br>
+    <textarea id="resultado" rows="15" readonly></textarea><br><br>
+
+    <div class="button-container">
+    <button id="copiar">Copiar</button>
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  <p>Author: J. Mosq</p>
+</footer>
+
+</body>
+</html>
